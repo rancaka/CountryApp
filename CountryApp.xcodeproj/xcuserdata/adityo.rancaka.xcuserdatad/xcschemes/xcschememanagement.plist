@@ -35,5 +35,43 @@
 			<integer>2</integer>
 		</dict>
 	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>12ACFE5729F1C3B7006584FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>12ACFE6729F1C3B9006584FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>12ACFE7129F1C3B9006584FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>12ACFE9229F1C412006584FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>12ACFECF29F1C665006584FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>12ACFEFC29F1C706006584FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>12ACFF4A29F1FA90006584FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>

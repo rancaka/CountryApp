@@ -11,6 +11,7 @@
 		1285EA2529F1FAFC00C2186C /* RouterDestination.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFF4229F1FA90006584FE /* RouterDestination.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1285EA2829F1FB0500C2186C /* RouterDestination.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFF4229F1FA90006584FE /* RouterDestination.framework */; };
 		1285EA2929F1FB0500C2186C /* RouterDestination.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFF4229F1FA90006584FE /* RouterDestination.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1285EA2D29F1FFAF00C2186C /* NavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1285EA2C29F1FFAF00C2186C /* NavigationTests.swift */; };
 		12ACFE5E29F1C3B7006584FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFE5D29F1C3B7006584FE /* ContentView.swift */; };
 		12ACFE6029F1C3B9006584FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12ACFE5F29F1C3B9006584FE /* Assets.xcassets */; };
 		12ACFE6329F1C3B9006584FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12ACFE6229F1C3B9006584FE /* Preview Assets.xcassets */; };
@@ -70,6 +71,34 @@
 			remoteInfo = RouterDestination;
 		};
 		1285EA2A29F1FB0500C2186C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12ACFF4129F1FA90006584FE;
+			remoteInfo = RouterDestination;
+		};
+		1285EA2E29F2003B00C2186C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12ACFEC629F1C664006584FE;
+			remoteInfo = Indonesia;
+		};
+		1285EA3029F2003B00C2186C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12ACFEF329F1C706006584FE;
+			remoteInfo = Japan;
+		};
+		1285EA3229F2003B00C2186C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12ACFE8929F1C412006584FE;
+			remoteInfo = Router;
+		};
+		1285EA3429F2004F00C2186C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
 			proxyType = 1;
@@ -280,6 +309,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1285EA2C29F1FFAF00C2186C /* NavigationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTests.swift; sourceTree = "<group>"; };
 		12ACFE5829F1C3B7006584FE /* CountryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12ACFE5D29F1C3B7006584FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		12ACFE5F29F1C3B9006584FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -492,6 +522,7 @@
 			isa = PBXGroup;
 			children = (
 				12ACFE6C29F1C3B9006584FE /* CountryAppTests.swift */,
+				1285EA2C29F1FFAF00C2186C /* NavigationTests.swift */,
 			);
 			path = CountryAppTests;
 			sourceTree = "<group>";
@@ -663,6 +694,10 @@
 			buildRules = (
 			);
 			dependencies = (
+				1285EA3529F2004F00C2186C /* PBXTargetDependency */,
+				1285EA2F29F2003B00C2186C /* PBXTargetDependency */,
+				1285EA3129F2003B00C2186C /* PBXTargetDependency */,
+				1285EA3329F2003B00C2186C /* PBXTargetDependency */,
 				12ACFE6A29F1C3B9006584FE /* PBXTargetDependency */,
 			);
 			name = CountryAppTests;
@@ -1047,6 +1082,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12ACFE6D29F1C3B9006584FE /* CountryAppTests.swift in Sources */,
+				1285EA2D29F1FFAF00C2186C /* NavigationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1147,6 +1183,26 @@
 			isa = PBXTargetDependency;
 			target = 12ACFF4129F1FA90006584FE /* RouterDestination */;
 			targetProxy = 1285EA2A29F1FB0500C2186C /* PBXContainerItemProxy */;
+		};
+		1285EA2F29F2003B00C2186C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12ACFEC629F1C664006584FE /* Indonesia */;
+			targetProxy = 1285EA2E29F2003B00C2186C /* PBXContainerItemProxy */;
+		};
+		1285EA3129F2003B00C2186C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12ACFEF329F1C706006584FE /* Japan */;
+			targetProxy = 1285EA3029F2003B00C2186C /* PBXContainerItemProxy */;
+		};
+		1285EA3329F2003B00C2186C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12ACFE8929F1C412006584FE /* Router */;
+			targetProxy = 1285EA3229F2003B00C2186C /* PBXContainerItemProxy */;
+		};
+		1285EA3529F2004F00C2186C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12ACFF4129F1FA90006584FE /* RouterDestination */;
+			targetProxy = 1285EA3429F2004F00C2186C /* PBXContainerItemProxy */;
 		};
 		12ACFE6A29F1C3B9006584FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
