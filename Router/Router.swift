@@ -12,7 +12,7 @@ public final class Router<Destination> {
     private let navigationController: UINavigationController
     private let router: (Destination, UINavigationController) -> Void
 
-    public init(router: @escaping (Destination, UINavigationController) -> Void, navigationController: UINavigationController) {
+    public init(navigationController: UINavigationController, router: @escaping (Destination, UINavigationController) -> Void) {
         self.router = router
         self.navigationController = navigationController
     }
@@ -24,12 +24,8 @@ public final class Router<Destination> {
     public func scope<LocalDestination>(
         _ toGlobalDestination: @escaping (LocalDestination) -> Destination
     ) -> Router<LocalDestination> {
-        Router<LocalDestination>(
-            router: { [weak self] localDestination, _ in
-                guard let self else { return }
-                self.router(toGlobalDestination(localDestination), self.navigationController)
-            },
-            navigationController: navigationController
-        )
+        Router<LocalDestination>(navigationController: navigationController) { localDestination, navigationController in
+            self.router(toGlobalDestination(localDestination), navigationController)
+        }
     }
 }

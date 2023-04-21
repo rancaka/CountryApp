@@ -20,8 +20,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         let navigationController = UINavigationController()
         UIApplication.router = Router(
-            router: worldRouter,
-            navigationController: navigationController
+            navigationController: navigationController,
+            router: worldRouter
         )
         UIApplication.router.goTo(.home)
 
