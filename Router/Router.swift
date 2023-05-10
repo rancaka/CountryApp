@@ -29,3 +29,38 @@ public final class Router<Destination> {
         }
     }
 }
+
+@propertyWrapper
+public struct Once<Value> {
+    private var _wrappedValue: Value?
+    public var wrappedValue: Value! {
+        get { _wrappedValue }
+        set {
+            if _wrappedValue != nil { return }
+            _wrappedValue = newValue
+        }
+    }
+
+    public init() {}
+}
+
+extension UIApplication {
+    @Once public static var router: Router<WorldDestination>!
+}
+
+public enum WorldDestination {
+    case home
+    case japan(JapanDestination)
+    case indonesia(IndonesiaDestination)
+}
+
+public enum JapanDestination {
+    case tokyo(Int)
+    case osaka
+    case presentTokyo(Int)
+}
+
+public enum IndonesiaDestination {
+    case jakarta
+    case bali
+}

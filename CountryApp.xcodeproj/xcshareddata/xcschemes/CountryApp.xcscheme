@@ -94,6 +94,17 @@
                ReferencedContainer = "container:CountryApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1285EA742A0B689D00C2186C"
+               BuildableName = "HelpersTests.xctest"
+               BlueprintName = "HelpersTests"
+               ReferencedContainer = "container:CountryApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

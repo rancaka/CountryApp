@@ -7,76 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1285EA2429F1FAFC00C2186C /* RouterDestination.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFF4229F1FA90006584FE /* RouterDestination.framework */; };
-		1285EA2529F1FAFC00C2186C /* RouterDestination.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFF4229F1FA90006584FE /* RouterDestination.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1285EA2829F1FB0500C2186C /* RouterDestination.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFF4229F1FA90006584FE /* RouterDestination.framework */; };
-		1285EA2929F1FB0500C2186C /* RouterDestination.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFF4229F1FA90006584FE /* RouterDestination.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1285EA2D29F1FFAF00C2186C /* NavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1285EA2C29F1FFAF00C2186C /* NavigationTests.swift */; };
+		1285EA642A0B67C800C2186C /* Jakarta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1285EA632A0B67C800C2186C /* Jakarta.swift */; };
+		1285EA662A0B67DD00C2186C /* Bali.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1285EA652A0B67DD00C2186C /* Bali.swift */; };
+		1285EA702A0B689D00C2186C /* Helpers.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1285EA6F2A0B689D00C2186C /* Helpers.docc */; };
+		1285EA7E2A0B689D00C2186C /* Helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 1285EA6E2A0B689D00C2186C /* Helpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1285EA812A0B689E00C2186C /* Helpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1285EA6C2A0B689D00C2186C /* Helpers.framework */; };
+		1285EA822A0B689E00C2186C /* Helpers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1285EA6C2A0B689D00C2186C /* Helpers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1285EA8A2A0B68B800C2186C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1285EA892A0B68B800C2186C /* ViewController.swift */; };
+		1285EA8B2A0B691300C2186C /* Helpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1285EA6C2A0B689D00C2186C /* Helpers.framework */; };
+		1285EA8C2A0B691300C2186C /* Helpers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1285EA6C2A0B689D00C2186C /* Helpers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1285EA8F2A0B691A00C2186C /* Helpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1285EA6C2A0B689D00C2186C /* Helpers.framework */; };
+		1285EA902A0B691A00C2186C /* Helpers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1285EA6C2A0B689D00C2186C /* Helpers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1285EA942A0B6B9900C2186C /* Tokyo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1285EA932A0B6B9900C2186C /* Tokyo.swift */; };
+		1285EA962A0B6BC900C2186C /* Osaka.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1285EA952A0B6BC900C2186C /* Osaka.swift */; };
 		12ACFE5E29F1C3B7006584FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFE5D29F1C3B7006584FE /* ContentView.swift */; };
 		12ACFE6029F1C3B9006584FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12ACFE5F29F1C3B9006584FE /* Assets.xcassets */; };
 		12ACFE6329F1C3B9006584FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12ACFE6229F1C3B9006584FE /* Preview Assets.xcassets */; };
 		12ACFE6D29F1C3B9006584FE /* CountryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFE6C29F1C3B9006584FE /* CountryAppTests.swift */; };
-		12ACFE7729F1C3B9006584FE /* CountryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFE7629F1C3B9006584FE /* CountryAppUITests.swift */; };
-		12ACFE7929F1C3B9006584FE /* CountryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFE7829F1C3B9006584FE /* CountryAppUITestsLaunchTests.swift */; };
 		12ACFE8E29F1C412006584FE /* Router.docc in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFE8D29F1C412006584FE /* Router.docc */; };
-		12ACFE9429F1C412006584FE /* Router.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFE8A29F1C412006584FE /* Router.framework */; };
-		12ACFE9B29F1C412006584FE /* RouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFE9A29F1C412006584FE /* RouterTests.swift */; };
 		12ACFE9C29F1C412006584FE /* Router.h in Headers */ = {isa = PBXBuildFile; fileRef = 12ACFE8C29F1C412006584FE /* Router.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12ACFE9F29F1C412006584FE /* Router.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFE8A29F1C412006584FE /* Router.framework */; };
 		12ACFEA029F1C412006584FE /* Router.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFE8A29F1C412006584FE /* Router.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		12ACFEA929F1C499006584FE /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFEA829F1C499006584FE /* Router.swift */; };
 		12ACFECB29F1C664006584FE /* Indonesia.docc in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFECA29F1C664006584FE /* Indonesia.docc */; };
-		12ACFED129F1C665006584FE /* Indonesia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFEC729F1C664006584FE /* Indonesia.framework */; };
-		12ACFED829F1C665006584FE /* IndonesiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFED729F1C665006584FE /* IndonesiaTests.swift */; };
 		12ACFED929F1C665006584FE /* Indonesia.h in Headers */ = {isa = PBXBuildFile; fileRef = 12ACFEC929F1C664006584FE /* Indonesia.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12ACFEDC29F1C665006584FE /* Indonesia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFEC729F1C664006584FE /* Indonesia.framework */; };
 		12ACFEDD29F1C665006584FE /* Indonesia.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFEC729F1C664006584FE /* Indonesia.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		12ACFEE529F1C687006584FE /* Indonesia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFEE429F1C687006584FE /* Indonesia.swift */; };
+		12ACFEE529F1C687006584FE /* IndonesiaNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFEE429F1C687006584FE /* IndonesiaNavigator.swift */; };
 		12ACFEEA29F1C6AD006584FE /* Router.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFE8A29F1C412006584FE /* Router.framework */; };
 		12ACFEEB29F1C6AD006584FE /* Router.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFE8A29F1C412006584FE /* Router.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		12ACFEF829F1C706006584FE /* Japan.docc in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFEF729F1C706006584FE /* Japan.docc */; };
-		12ACFEFE29F1C706006584FE /* Japan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFEF429F1C706006584FE /* Japan.framework */; };
-		12ACFF0529F1C706006584FE /* JapanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFF0429F1C706006584FE /* JapanTests.swift */; };
 		12ACFF0629F1C706006584FE /* Japan.h in Headers */ = {isa = PBXBuildFile; fileRef = 12ACFEF629F1C706006584FE /* Japan.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12ACFF0929F1C706006584FE /* Japan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFEF429F1C706006584FE /* Japan.framework */; };
 		12ACFF0A29F1C706006584FE /* Japan.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFEF429F1C706006584FE /* Japan.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		12ACFF1229F1C718006584FE /* Japan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFF1129F1C718006584FE /* Japan.swift */; };
+		12ACFF1229F1C718006584FE /* JapanNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFF1129F1C718006584FE /* JapanNavigator.swift */; };
 		12ACFF1629F1C730006584FE /* Router.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFE8A29F1C412006584FE /* Router.framework */; };
 		12ACFF1729F1C730006584FE /* Router.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFE8A29F1C412006584FE /* Router.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		12ACFF2429F1CB69006584FE /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFF2329F1CB69006584FE /* Helpers.swift */; };
-		12ACFF2A29F1CCD9006584FE /* libHelpers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFF2129F1CB69006584FE /* libHelpers.a */; };
-		12ACFF2D29F1CCE1006584FE /* libHelpers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFF2129F1CB69006584FE /* libHelpers.a */; };
 		12ACFF3329F1CF95006584FE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFF3229F1CF95006584FE /* HomeViewController.swift */; };
 		12ACFF3529F1D3E8006584FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFF3429F1D3E8006584FE /* SceneDelegate.swift */; };
 		12ACFF3729F1D457006584FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFF3629F1D457006584FE /* AppDelegate.swift */; };
 		12ACFF3C29F1EC67006584FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFF3B29F1EC67006584FE /* ViewController.swift */; };
-		12ACFF4629F1FA90006584FE /* RouterDestination.docc in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFF4529F1FA90006584FE /* RouterDestination.docc */; };
-		12ACFF4C29F1FA91006584FE /* RouterDestination.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFF4229F1FA90006584FE /* RouterDestination.framework */; };
-		12ACFF5329F1FA91006584FE /* RouterDestinationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFF5229F1FA91006584FE /* RouterDestinationTests.swift */; };
-		12ACFF5429F1FA91006584FE /* RouterDestination.h in Headers */ = {isa = PBXBuildFile; fileRef = 12ACFF4429F1FA90006584FE /* RouterDestination.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12ACFF5729F1FA91006584FE /* RouterDestination.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFF4229F1FA90006584FE /* RouterDestination.framework */; };
-		12ACFF5829F1FA91006584FE /* RouterDestination.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFF4229F1FA90006584FE /* RouterDestination.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		12ACFF6029F1FAA2006584FE /* RouterDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFF5F29F1FAA2006584FE /* RouterDestination.swift */; };
-		12ACFF6129F1FAC1006584FE /* libHelpers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFF2129F1CB69006584FE /* libHelpers.a */; };
-		12ACFF6429F1FAC1006584FE /* Router.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFE8A29F1C412006584FE /* Router.framework */; };
-		12ACFF6529F1FAC1006584FE /* Router.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFE8A29F1C412006584FE /* Router.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1285EA2629F1FAFC00C2186C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12ACFF4129F1FA90006584FE;
-			remoteInfo = RouterDestination;
-		};
-		1285EA2A29F1FB0500C2186C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12ACFF4129F1FA90006584FE;
-			remoteInfo = RouterDestination;
-		};
 		1285EA2E29F2003B00C2186C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
@@ -98,35 +72,28 @@
 			remoteGlobalIDString = 12ACFE8929F1C412006584FE;
 			remoteInfo = Router;
 		};
-		1285EA3429F2004F00C2186C /* PBXContainerItemProxy */ = {
+		1285EA7F2A0B689E00C2186C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 12ACFF4129F1FA90006584FE;
-			remoteInfo = RouterDestination;
+			remoteGlobalIDString = 1285EA6B2A0B689D00C2186C;
+			remoteInfo = Helpers;
+		};
+		1285EA8D2A0B691300C2186C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1285EA6B2A0B689D00C2186C;
+			remoteInfo = Helpers;
+		};
+		1285EA912A0B691A00C2186C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1285EA6B2A0B689D00C2186C;
+			remoteInfo = Helpers;
 		};
 		12ACFE6929F1C3B9006584FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12ACFE5729F1C3B7006584FE;
-			remoteInfo = CountryApp;
-		};
-		12ACFE7329F1C3B9006584FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12ACFE5729F1C3B7006584FE;
-			remoteInfo = CountryApp;
-		};
-		12ACFE9529F1C412006584FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12ACFE8929F1C412006584FE;
-			remoteInfo = Router;
-		};
-		12ACFE9729F1C412006584FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
 			proxyType = 1;
@@ -139,20 +106,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 12ACFE8929F1C412006584FE;
 			remoteInfo = Router;
-		};
-		12ACFED229F1C665006584FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12ACFEC629F1C664006584FE;
-			remoteInfo = Indonesia;
-		};
-		12ACFED429F1C665006584FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12ACFE5729F1C3B7006584FE;
-			remoteInfo = CountryApp;
 		};
 		12ACFEDA29F1C665006584FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -168,20 +121,6 @@
 			remoteGlobalIDString = 12ACFE8929F1C412006584FE;
 			remoteInfo = Router;
 		};
-		12ACFEFF29F1C706006584FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12ACFEF329F1C706006584FE;
-			remoteInfo = Japan;
-		};
-		12ACFF0129F1C706006584FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12ACFE5729F1C3B7006584FE;
-			remoteInfo = CountryApp;
-		};
 		12ACFF0729F1C706006584FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
@@ -190,55 +129,6 @@
 			remoteInfo = Japan;
 		};
 		12ACFF1829F1C730006584FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12ACFE8929F1C412006584FE;
-			remoteInfo = Router;
-		};
-		12ACFF2B29F1CCD9006584FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12ACFF2029F1CB69006584FE;
-			remoteInfo = Helpers;
-		};
-		12ACFF2E29F1CCE1006584FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12ACFF2029F1CB69006584FE;
-			remoteInfo = Helpers;
-		};
-		12ACFF4D29F1FA91006584FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12ACFF4129F1FA90006584FE;
-			remoteInfo = RouterDestination;
-		};
-		12ACFF4F29F1FA91006584FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12ACFE5729F1C3B7006584FE;
-			remoteInfo = CountryApp;
-		};
-		12ACFF5529F1FA91006584FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12ACFF4129F1FA90006584FE;
-			remoteInfo = RouterDestination;
-		};
-		12ACFF6229F1FAC1006584FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12ACFF2029F1CB69006584FE;
-			remoteInfo = Helpers;
-		};
-		12ACFF6629F1FAC1006584FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 12ACFE5029F1C3B7006584FE /* Project object */;
 			proxyType = 1;
@@ -254,9 +144,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				1285EA822A0B689E00C2186C /* Helpers.framework in Embed Frameworks */,
 				12ACFEA029F1C412006584FE /* Router.framework in Embed Frameworks */,
 				12ACFF0A29F1C706006584FE /* Japan.framework in Embed Frameworks */,
-				12ACFF5829F1FA91006584FE /* RouterDestination.framework in Embed Frameworks */,
 				12ACFEDD29F1C665006584FE /* Indonesia.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -268,7 +158,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1285EA2529F1FAFC00C2186C /* RouterDestination.framework in Embed Frameworks */,
+				1285EA8C2A0B691300C2186C /* Helpers.framework in Embed Frameworks */,
 				12ACFEEB29F1C6AD006584FE /* Router.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -280,28 +170,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1285EA2929F1FB0500C2186C /* RouterDestination.framework in Embed Frameworks */,
+				1285EA902A0B691A00C2186C /* Helpers.framework in Embed Frameworks */,
 				12ACFF1729F1C730006584FE /* Router.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12ACFF1F29F1CB69006584FE /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12ACFF6829F1FAC1006584FE /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				12ACFF6529F1FAC1006584FE /* Router.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,68 +180,60 @@
 
 /* Begin PBXFileReference section */
 		1285EA2C29F1FFAF00C2186C /* NavigationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTests.swift; sourceTree = "<group>"; };
+		1285EA632A0B67C800C2186C /* Jakarta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jakarta.swift; sourceTree = "<group>"; };
+		1285EA652A0B67DD00C2186C /* Bali.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bali.swift; sourceTree = "<group>"; };
+		1285EA6C2A0B689D00C2186C /* Helpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Helpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1285EA6E2A0B689D00C2186C /* Helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helpers.h; sourceTree = "<group>"; };
+		1285EA6F2A0B689D00C2186C /* Helpers.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Helpers.docc; sourceTree = "<group>"; };
+		1285EA892A0B68B800C2186C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1285EA932A0B6B9900C2186C /* Tokyo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokyo.swift; sourceTree = "<group>"; };
+		1285EA952A0B6BC900C2186C /* Osaka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Osaka.swift; sourceTree = "<group>"; };
 		12ACFE5829F1C3B7006584FE /* CountryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12ACFE5D29F1C3B7006584FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		12ACFE5F29F1C3B9006584FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12ACFE6229F1C3B9006584FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		12ACFE6829F1C3B9006584FE /* CountryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12ACFE6C29F1C3B9006584FE /* CountryAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryAppTests.swift; sourceTree = "<group>"; };
-		12ACFE7229F1C3B9006584FE /* CountryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		12ACFE7629F1C3B9006584FE /* CountryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryAppUITests.swift; sourceTree = "<group>"; };
-		12ACFE7829F1C3B9006584FE /* CountryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		12ACFE8A29F1C412006584FE /* Router.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Router.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12ACFE8C29F1C412006584FE /* Router.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Router.h; sourceTree = "<group>"; };
 		12ACFE8D29F1C412006584FE /* Router.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Router.docc; sourceTree = "<group>"; };
-		12ACFE9329F1C412006584FE /* RouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		12ACFE9A29F1C412006584FE /* RouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterTests.swift; sourceTree = "<group>"; };
 		12ACFEA829F1C499006584FE /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		12ACFEC729F1C664006584FE /* Indonesia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Indonesia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12ACFEC929F1C664006584FE /* Indonesia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Indonesia.h; sourceTree = "<group>"; };
 		12ACFECA29F1C664006584FE /* Indonesia.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Indonesia.docc; sourceTree = "<group>"; };
-		12ACFED029F1C665006584FE /* IndonesiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndonesiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		12ACFED729F1C665006584FE /* IndonesiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndonesiaTests.swift; sourceTree = "<group>"; };
-		12ACFEE429F1C687006584FE /* Indonesia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indonesia.swift; sourceTree = "<group>"; };
+		12ACFEE429F1C687006584FE /* IndonesiaNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndonesiaNavigator.swift; sourceTree = "<group>"; };
 		12ACFEF429F1C706006584FE /* Japan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Japan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12ACFEF629F1C706006584FE /* Japan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Japan.h; sourceTree = "<group>"; };
 		12ACFEF729F1C706006584FE /* Japan.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Japan.docc; sourceTree = "<group>"; };
-		12ACFEFD29F1C706006584FE /* JapanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JapanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12ACFF0429F1C706006584FE /* JapanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapanTests.swift; sourceTree = "<group>"; };
-		12ACFF1129F1C718006584FE /* Japan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Japan.swift; sourceTree = "<group>"; };
-		12ACFF2129F1CB69006584FE /* libHelpers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHelpers.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		12ACFF2329F1CB69006584FE /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		12ACFF1129F1C718006584FE /* JapanNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapanNavigator.swift; sourceTree = "<group>"; };
 		12ACFF3229F1CF95006584FE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		12ACFF3429F1D3E8006584FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		12ACFF3629F1D457006584FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12ACFF3829F1D60D006584FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		12ACFF3B29F1EC67006584FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		12ACFF4229F1FA90006584FE /* RouterDestination.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RouterDestination.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		12ACFF4429F1FA90006584FE /* RouterDestination.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouterDestination.h; sourceTree = "<group>"; };
-		12ACFF4529F1FA90006584FE /* RouterDestination.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = RouterDestination.docc; sourceTree = "<group>"; };
-		12ACFF4B29F1FA90006584FE /* RouterDestinationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouterDestinationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		12ACFF5229F1FA91006584FE /* RouterDestinationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterDestinationTests.swift; sourceTree = "<group>"; };
-		12ACFF5F29F1FAA2006584FE /* RouterDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterDestination.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1285EA692A0B689D00C2186C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		12ACFE5529F1C3B7006584FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1285EA812A0B689E00C2186C /* Helpers.framework in Frameworks */,
 				12ACFE9F29F1C412006584FE /* Router.framework in Frameworks */,
 				12ACFF0929F1C706006584FE /* Japan.framework in Frameworks */,
-				12ACFF5729F1FA91006584FE /* RouterDestination.framework in Frameworks */,
 				12ACFEDC29F1C665006584FE /* Indonesia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		12ACFE6529F1C3B9006584FE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12ACFE6F29F1C3B9006584FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -385,29 +247,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		12ACFE9029F1C412006584FE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12ACFE9429F1C412006584FE /* Router.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		12ACFEC429F1C664006584FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12ACFF2A29F1CCD9006584FE /* libHelpers.a in Frameworks */,
-				1285EA2429F1FAFC00C2186C /* RouterDestination.framework in Frameworks */,
+				1285EA8B2A0B691300C2186C /* Helpers.framework in Frameworks */,
 				12ACFEEA29F1C6AD006584FE /* Router.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12ACFECD29F1C665006584FE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12ACFED129F1C665006584FE /* Indonesia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,62 +260,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12ACFF2D29F1CCE1006584FE /* libHelpers.a in Frameworks */,
-				1285EA2829F1FB0500C2186C /* RouterDestination.framework in Frameworks */,
+				1285EA8F2A0B691A00C2186C /* Helpers.framework in Frameworks */,
 				12ACFF1629F1C730006584FE /* Router.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12ACFEFA29F1C706006584FE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12ACFEFE29F1C706006584FE /* Japan.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12ACFF1E29F1CB69006584FE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12ACFF3F29F1FA90006584FE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12ACFF6129F1FAC1006584FE /* libHelpers.a in Frameworks */,
-				12ACFF6429F1FAC1006584FE /* Router.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12ACFF4829F1FA90006584FE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12ACFF4C29F1FA91006584FE /* RouterDestination.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1285EA6D2A0B689D00C2186C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1285EA6E2A0B689D00C2186C /* Helpers.h */,
+				1285EA6F2A0B689D00C2186C /* Helpers.docc */,
+				1285EA892A0B68B800C2186C /* ViewController.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		12ACFE4F29F1C3B7006584FE = {
 			isa = PBXGroup;
 			children = (
 				12ACFE5A29F1C3B7006584FE /* CountryApp */,
 				12ACFE6B29F1C3B9006584FE /* CountryAppTests */,
-				12ACFE7529F1C3B9006584FE /* CountryAppUITests */,
 				12ACFE8B29F1C412006584FE /* Router */,
-				12ACFE9929F1C412006584FE /* RouterTests */,
 				12ACFEC829F1C664006584FE /* Indonesia */,
-				12ACFED629F1C665006584FE /* IndonesiaTests */,
 				12ACFEF529F1C706006584FE /* Japan */,
 				12ACFF0329F1C706006584FE /* JapanTests */,
-				12ACFF2229F1CB69006584FE /* Helpers */,
-				12ACFF4329F1FA90006584FE /* RouterDestination */,
-				12ACFF5129F1FA91006584FE /* RouterDestinationTests */,
+				1285EA6D2A0B689D00C2186C /* Helpers */,
 				12ACFE5929F1C3B7006584FE /* Products */,
 				12ACFEE629F1C6AD006584FE /* Frameworks */,
 			);
@@ -481,16 +298,10 @@
 			children = (
 				12ACFE5829F1C3B7006584FE /* CountryApp.app */,
 				12ACFE6829F1C3B9006584FE /* CountryAppTests.xctest */,
-				12ACFE7229F1C3B9006584FE /* CountryAppUITests.xctest */,
 				12ACFE8A29F1C412006584FE /* Router.framework */,
-				12ACFE9329F1C412006584FE /* RouterTests.xctest */,
 				12ACFEC729F1C664006584FE /* Indonesia.framework */,
-				12ACFED029F1C665006584FE /* IndonesiaTests.xctest */,
 				12ACFEF429F1C706006584FE /* Japan.framework */,
-				12ACFEFD29F1C706006584FE /* JapanTests.xctest */,
-				12ACFF2129F1CB69006584FE /* libHelpers.a */,
-				12ACFF4229F1FA90006584FE /* RouterDestination.framework */,
-				12ACFF4B29F1FA90006584FE /* RouterDestinationTests.xctest */,
+				1285EA6C2A0B689D00C2186C /* Helpers.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -527,15 +338,6 @@
 			path = CountryAppTests;
 			sourceTree = "<group>";
 		};
-		12ACFE7529F1C3B9006584FE /* CountryAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				12ACFE7629F1C3B9006584FE /* CountryAppUITests.swift */,
-				12ACFE7829F1C3B9006584FE /* CountryAppUITestsLaunchTests.swift */,
-			);
-			path = CountryAppUITests;
-			sourceTree = "<group>";
-		};
 		12ACFE8B29F1C412006584FE /* Router */ = {
 			isa = PBXGroup;
 			children = (
@@ -546,30 +348,16 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
-		12ACFE9929F1C412006584FE /* RouterTests */ = {
-			isa = PBXGroup;
-			children = (
-				12ACFE9A29F1C412006584FE /* RouterTests.swift */,
-			);
-			path = RouterTests;
-			sourceTree = "<group>";
-		};
 		12ACFEC829F1C664006584FE /* Indonesia */ = {
 			isa = PBXGroup;
 			children = (
 				12ACFEC929F1C664006584FE /* Indonesia.h */,
 				12ACFECA29F1C664006584FE /* Indonesia.docc */,
-				12ACFEE429F1C687006584FE /* Indonesia.swift */,
+				12ACFEE429F1C687006584FE /* IndonesiaNavigator.swift */,
+				1285EA632A0B67C800C2186C /* Jakarta.swift */,
+				1285EA652A0B67DD00C2186C /* Bali.swift */,
 			);
 			path = Indonesia;
-			sourceTree = "<group>";
-		};
-		12ACFED629F1C665006584FE /* IndonesiaTests */ = {
-			isa = PBXGroup;
-			children = (
-				12ACFED729F1C665006584FE /* IndonesiaTests.swift */,
-			);
-			path = IndonesiaTests;
 			sourceTree = "<group>";
 		};
 		12ACFEE629F1C6AD006584FE /* Frameworks */ = {
@@ -584,7 +372,9 @@
 			children = (
 				12ACFEF629F1C706006584FE /* Japan.h */,
 				12ACFEF729F1C706006584FE /* Japan.docc */,
-				12ACFF1129F1C718006584FE /* Japan.swift */,
+				12ACFF1129F1C718006584FE /* JapanNavigator.swift */,
+				1285EA932A0B6B9900C2186C /* Tokyo.swift */,
+				1285EA952A0B6BC900C2186C /* Osaka.swift */,
 			);
 			path = Japan;
 			sourceTree = "<group>";
@@ -597,35 +387,17 @@
 			path = JapanTests;
 			sourceTree = "<group>";
 		};
-		12ACFF2229F1CB69006584FE /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				12ACFF2329F1CB69006584FE /* Helpers.swift */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		12ACFF4329F1FA90006584FE /* RouterDestination */ = {
-			isa = PBXGroup;
-			children = (
-				12ACFF4429F1FA90006584FE /* RouterDestination.h */,
-				12ACFF4529F1FA90006584FE /* RouterDestination.docc */,
-				12ACFF5F29F1FAA2006584FE /* RouterDestination.swift */,
-			);
-			path = RouterDestination;
-			sourceTree = "<group>";
-		};
-		12ACFF5129F1FA91006584FE /* RouterDestinationTests */ = {
-			isa = PBXGroup;
-			children = (
-				12ACFF5229F1FA91006584FE /* RouterDestinationTests.swift */,
-			);
-			path = RouterDestinationTests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1285EA672A0B689D00C2186C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1285EA7E2A0B689D00C2186C /* Helpers.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		12ACFE8529F1C412006584FE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -650,17 +422,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		12ACFF3D29F1FA90006584FE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12ACFF5429F1FA91006584FE /* RouterDestination.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1285EA6B2A0B689D00C2186C /* Helpers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1285EA832A0B689E00C2186C /* Build configuration list for PBXNativeTarget "Helpers" */;
+			buildPhases = (
+				1285EA672A0B689D00C2186C /* Headers */,
+				1285EA682A0B689D00C2186C /* Sources */,
+				1285EA692A0B689D00C2186C /* Frameworks */,
+				1285EA6A2A0B689D00C2186C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Helpers;
+			productName = Helpers;
+			productReference = 1285EA6C2A0B689D00C2186C /* Helpers.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		12ACFE5729F1C3B7006584FE /* CountryApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12ACFE7C29F1C3B9006584FE /* Build configuration list for PBXNativeTarget "CountryApp" */;
@@ -676,7 +458,7 @@
 				12ACFE9E29F1C412006584FE /* PBXTargetDependency */,
 				12ACFEDB29F1C665006584FE /* PBXTargetDependency */,
 				12ACFF0829F1C706006584FE /* PBXTargetDependency */,
-				12ACFF5629F1FA91006584FE /* PBXTargetDependency */,
+				1285EA802A0B689E00C2186C /* PBXTargetDependency */,
 			);
 			name = CountryApp;
 			productName = CountryApp;
@@ -694,7 +476,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				1285EA3529F2004F00C2186C /* PBXTargetDependency */,
 				1285EA2F29F2003B00C2186C /* PBXTargetDependency */,
 				1285EA3129F2003B00C2186C /* PBXTargetDependency */,
 				1285EA3329F2003B00C2186C /* PBXTargetDependency */,
@@ -704,24 +485,6 @@
 			productName = CountryAppTests;
 			productReference = 12ACFE6829F1C3B9006584FE /* CountryAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		12ACFE7129F1C3B9006584FE /* CountryAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 12ACFE8229F1C3B9006584FE /* Build configuration list for PBXNativeTarget "CountryAppUITests" */;
-			buildPhases = (
-				12ACFE6E29F1C3B9006584FE /* Sources */,
-				12ACFE6F29F1C3B9006584FE /* Frameworks */,
-				12ACFE7029F1C3B9006584FE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				12ACFE7429F1C3B9006584FE /* PBXTargetDependency */,
-			);
-			name = CountryAppUITests;
-			productName = CountryAppUITests;
-			productReference = 12ACFE7229F1C3B9006584FE /* CountryAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		12ACFE8929F1C412006584FE /* Router */ = {
 			isa = PBXNativeTarget;
@@ -741,25 +504,6 @@
 			productReference = 12ACFE8A29F1C412006584FE /* Router.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		12ACFE9229F1C412006584FE /* RouterTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 12ACFEA529F1C412006584FE /* Build configuration list for PBXNativeTarget "RouterTests" */;
-			buildPhases = (
-				12ACFE8F29F1C412006584FE /* Sources */,
-				12ACFE9029F1C412006584FE /* Frameworks */,
-				12ACFE9129F1C412006584FE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				12ACFE9629F1C412006584FE /* PBXTargetDependency */,
-				12ACFE9829F1C412006584FE /* PBXTargetDependency */,
-			);
-			name = RouterTests;
-			productName = RouterTests;
-			productReference = 12ACFE9329F1C412006584FE /* RouterTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		12ACFEC629F1C664006584FE /* Indonesia */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12ACFEDE29F1C665006584FE /* Build configuration list for PBXNativeTarget "Indonesia" */;
@@ -774,32 +518,12 @@
 			);
 			dependencies = (
 				12ACFEED29F1C6AD006584FE /* PBXTargetDependency */,
-				12ACFF2C29F1CCD9006584FE /* PBXTargetDependency */,
-				1285EA2729F1FAFC00C2186C /* PBXTargetDependency */,
+				1285EA8E2A0B691300C2186C /* PBXTargetDependency */,
 			);
 			name = Indonesia;
 			productName = Indonesia;
 			productReference = 12ACFEC729F1C664006584FE /* Indonesia.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		12ACFECF29F1C665006584FE /* IndonesiaTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 12ACFEE129F1C665006584FE /* Build configuration list for PBXNativeTarget "IndonesiaTests" */;
-			buildPhases = (
-				12ACFECC29F1C665006584FE /* Sources */,
-				12ACFECD29F1C665006584FE /* Frameworks */,
-				12ACFECE29F1C665006584FE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				12ACFED329F1C665006584FE /* PBXTargetDependency */,
-				12ACFED529F1C665006584FE /* PBXTargetDependency */,
-			);
-			name = IndonesiaTests;
-			productName = IndonesiaTests;
-			productReference = 12ACFED029F1C665006584FE /* IndonesiaTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		12ACFEF329F1C706006584FE /* Japan */ = {
 			isa = PBXNativeTarget;
@@ -815,89 +539,12 @@
 			);
 			dependencies = (
 				12ACFF1929F1C730006584FE /* PBXTargetDependency */,
-				12ACFF2F29F1CCE1006584FE /* PBXTargetDependency */,
-				1285EA2B29F1FB0500C2186C /* PBXTargetDependency */,
+				1285EA922A0B691A00C2186C /* PBXTargetDependency */,
 			);
 			name = Japan;
 			productName = Japan;
 			productReference = 12ACFEF429F1C706006584FE /* Japan.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		12ACFEFC29F1C706006584FE /* JapanTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 12ACFF0E29F1C706006584FE /* Build configuration list for PBXNativeTarget "JapanTests" */;
-			buildPhases = (
-				12ACFEF929F1C706006584FE /* Sources */,
-				12ACFEFA29F1C706006584FE /* Frameworks */,
-				12ACFEFB29F1C706006584FE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				12ACFF0029F1C706006584FE /* PBXTargetDependency */,
-				12ACFF0229F1C706006584FE /* PBXTargetDependency */,
-			);
-			name = JapanTests;
-			productName = JapanTests;
-			productReference = 12ACFEFD29F1C706006584FE /* JapanTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		12ACFF2029F1CB69006584FE /* Helpers */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 12ACFF2529F1CB69006584FE /* Build configuration list for PBXNativeTarget "Helpers" */;
-			buildPhases = (
-				12ACFF1D29F1CB69006584FE /* Sources */,
-				12ACFF1E29F1CB69006584FE /* Frameworks */,
-				12ACFF1F29F1CB69006584FE /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Helpers;
-			productName = Helpers;
-			productReference = 12ACFF2129F1CB69006584FE /* libHelpers.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		12ACFF4129F1FA90006584FE /* RouterDestination */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 12ACFF5929F1FA92006584FE /* Build configuration list for PBXNativeTarget "RouterDestination" */;
-			buildPhases = (
-				12ACFF3D29F1FA90006584FE /* Headers */,
-				12ACFF3E29F1FA90006584FE /* Sources */,
-				12ACFF3F29F1FA90006584FE /* Frameworks */,
-				12ACFF4029F1FA90006584FE /* Resources */,
-				12ACFF6829F1FAC1006584FE /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				12ACFF6329F1FAC1006584FE /* PBXTargetDependency */,
-				12ACFF6729F1FAC1006584FE /* PBXTargetDependency */,
-			);
-			name = RouterDestination;
-			productName = RouterDestination;
-			productReference = 12ACFF4229F1FA90006584FE /* RouterDestination.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		12ACFF4A29F1FA90006584FE /* RouterDestinationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 12ACFF5C29F1FA92006584FE /* Build configuration list for PBXNativeTarget "RouterDestinationTests" */;
-			buildPhases = (
-				12ACFF4729F1FA90006584FE /* Sources */,
-				12ACFF4829F1FA90006584FE /* Frameworks */,
-				12ACFF4929F1FA90006584FE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				12ACFF4E29F1FA91006584FE /* PBXTargetDependency */,
-				12ACFF5029F1FA91006584FE /* PBXTargetDependency */,
-			);
-			name = RouterDestinationTests;
-			productName = RouterDestinationTests;
-			productReference = 12ACFF4B29F1FA90006584FE /* RouterDestinationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -909,6 +556,9 @@
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
+					1285EA6B2A0B689D00C2186C = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
 					12ACFE5729F1C3B7006584FE = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
@@ -916,40 +566,14 @@
 						CreatedOnToolsVersion = 14.0.1;
 						TestTargetID = 12ACFE5729F1C3B7006584FE;
 					};
-					12ACFE7129F1C3B9006584FE = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = 12ACFE5729F1C3B7006584FE;
-					};
 					12ACFE8929F1C412006584FE = {
 						CreatedOnToolsVersion = 14.0.1;
-					};
-					12ACFE9229F1C412006584FE = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = 12ACFE5729F1C3B7006584FE;
 					};
 					12ACFEC629F1C664006584FE = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
-					12ACFECF29F1C665006584FE = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = 12ACFE5729F1C3B7006584FE;
-					};
 					12ACFEF329F1C706006584FE = {
 						CreatedOnToolsVersion = 14.0.1;
-					};
-					12ACFEFC29F1C706006584FE = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = 12ACFE5729F1C3B7006584FE;
-					};
-					12ACFF2029F1CB69006584FE = {
-						CreatedOnToolsVersion = 14.0.1;
-					};
-					12ACFF4129F1FA90006584FE = {
-						CreatedOnToolsVersion = 14.0.1;
-					};
-					12ACFF4A29F1FA90006584FE = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = 12ACFE5729F1C3B7006584FE;
 					};
 				};
 			};
@@ -968,21 +592,22 @@
 			targets = (
 				12ACFE5729F1C3B7006584FE /* CountryApp */,
 				12ACFE6729F1C3B9006584FE /* CountryAppTests */,
-				12ACFE7129F1C3B9006584FE /* CountryAppUITests */,
 				12ACFE8929F1C412006584FE /* Router */,
-				12ACFE9229F1C412006584FE /* RouterTests */,
 				12ACFEC629F1C664006584FE /* Indonesia */,
-				12ACFECF29F1C665006584FE /* IndonesiaTests */,
 				12ACFEF329F1C706006584FE /* Japan */,
-				12ACFEFC29F1C706006584FE /* JapanTests */,
-				12ACFF2029F1CB69006584FE /* Helpers */,
-				12ACFF4129F1FA90006584FE /* RouterDestination */,
-				12ACFF4A29F1FA90006584FE /* RouterDestinationTests */,
+				1285EA6B2A0B689D00C2186C /* Helpers */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1285EA6A2A0B689D00C2186C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		12ACFE5629F1C3B7006584FE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -999,21 +624,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		12ACFE7029F1C3B9006584FE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		12ACFE8829F1C412006584FE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12ACFE9129F1C412006584FE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1027,35 +638,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		12ACFECE29F1C665006584FE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		12ACFEF229F1C706006584FE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12ACFEFB29F1C706006584FE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12ACFF4029F1FA90006584FE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12ACFF4929F1FA90006584FE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1065,6 +648,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1285EA682A0B689D00C2186C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1285EA8A2A0B68B800C2186C /* ViewController.swift in Sources */,
+				1285EA702A0B689D00C2186C /* Helpers.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		12ACFE5429F1C3B7006584FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1086,15 +678,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		12ACFE6E29F1C3B9006584FE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12ACFE7729F1C3B9006584FE /* CountryAppUITests.swift in Sources */,
-				12ACFE7929F1C3B9006584FE /* CountryAppUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		12ACFE8629F1C412006584FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1104,28 +687,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		12ACFE8F29F1C412006584FE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12ACFE9B29F1C412006584FE /* RouterTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		12ACFEC329F1C664006584FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12ACFEE529F1C687006584FE /* Indonesia.swift in Sources */,
+				12ACFEE529F1C687006584FE /* IndonesiaNavigator.swift in Sources */,
+				1285EA662A0B67DD00C2186C /* Bali.swift in Sources */,
 				12ACFECB29F1C664006584FE /* Indonesia.docc in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12ACFECC29F1C665006584FE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12ACFED829F1C665006584FE /* IndonesiaTests.swift in Sources */,
+				1285EA642A0B67C800C2186C /* Jakarta.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1133,57 +702,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12ACFF1229F1C718006584FE /* Japan.swift in Sources */,
+				1285EA942A0B6B9900C2186C /* Tokyo.swift in Sources */,
+				1285EA962A0B6BC900C2186C /* Osaka.swift in Sources */,
+				12ACFF1229F1C718006584FE /* JapanNavigator.swift in Sources */,
 				12ACFEF829F1C706006584FE /* Japan.docc in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12ACFEF929F1C706006584FE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12ACFF0529F1C706006584FE /* JapanTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12ACFF1D29F1CB69006584FE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12ACFF2429F1CB69006584FE /* Helpers.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12ACFF3E29F1FA90006584FE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12ACFF4629F1FA90006584FE /* RouterDestination.docc in Sources */,
-				12ACFF6029F1FAA2006584FE /* RouterDestination.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12ACFF4729F1FA90006584FE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12ACFF5329F1FA91006584FE /* RouterDestinationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1285EA2729F1FAFC00C2186C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 12ACFF4129F1FA90006584FE /* RouterDestination */;
-			targetProxy = 1285EA2629F1FAFC00C2186C /* PBXContainerItemProxy */;
-		};
-		1285EA2B29F1FB0500C2186C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 12ACFF4129F1FA90006584FE /* RouterDestination */;
-			targetProxy = 1285EA2A29F1FB0500C2186C /* PBXContainerItemProxy */;
-		};
 		1285EA2F29F2003B00C2186C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 12ACFEC629F1C664006584FE /* Indonesia */;
@@ -1199,45 +727,30 @@
 			target = 12ACFE8929F1C412006584FE /* Router */;
 			targetProxy = 1285EA3229F2003B00C2186C /* PBXContainerItemProxy */;
 		};
-		1285EA3529F2004F00C2186C /* PBXTargetDependency */ = {
+		1285EA802A0B689E00C2186C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 12ACFF4129F1FA90006584FE /* RouterDestination */;
-			targetProxy = 1285EA3429F2004F00C2186C /* PBXContainerItemProxy */;
+			target = 1285EA6B2A0B689D00C2186C /* Helpers */;
+			targetProxy = 1285EA7F2A0B689E00C2186C /* PBXContainerItemProxy */;
+		};
+		1285EA8E2A0B691300C2186C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1285EA6B2A0B689D00C2186C /* Helpers */;
+			targetProxy = 1285EA8D2A0B691300C2186C /* PBXContainerItemProxy */;
+		};
+		1285EA922A0B691A00C2186C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1285EA6B2A0B689D00C2186C /* Helpers */;
+			targetProxy = 1285EA912A0B691A00C2186C /* PBXContainerItemProxy */;
 		};
 		12ACFE6A29F1C3B9006584FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 12ACFE5729F1C3B7006584FE /* CountryApp */;
 			targetProxy = 12ACFE6929F1C3B9006584FE /* PBXContainerItemProxy */;
 		};
-		12ACFE7429F1C3B9006584FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 12ACFE5729F1C3B7006584FE /* CountryApp */;
-			targetProxy = 12ACFE7329F1C3B9006584FE /* PBXContainerItemProxy */;
-		};
-		12ACFE9629F1C412006584FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 12ACFE8929F1C412006584FE /* Router */;
-			targetProxy = 12ACFE9529F1C412006584FE /* PBXContainerItemProxy */;
-		};
-		12ACFE9829F1C412006584FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 12ACFE5729F1C3B7006584FE /* CountryApp */;
-			targetProxy = 12ACFE9729F1C412006584FE /* PBXContainerItemProxy */;
-		};
 		12ACFE9E29F1C412006584FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 12ACFE8929F1C412006584FE /* Router */;
 			targetProxy = 12ACFE9D29F1C412006584FE /* PBXContainerItemProxy */;
-		};
-		12ACFED329F1C665006584FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 12ACFEC629F1C664006584FE /* Indonesia */;
-			targetProxy = 12ACFED229F1C665006584FE /* PBXContainerItemProxy */;
-		};
-		12ACFED529F1C665006584FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 12ACFE5729F1C3B7006584FE /* CountryApp */;
-			targetProxy = 12ACFED429F1C665006584FE /* PBXContainerItemProxy */;
 		};
 		12ACFEDB29F1C665006584FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1249,16 +762,6 @@
 			target = 12ACFE8929F1C412006584FE /* Router */;
 			targetProxy = 12ACFEEC29F1C6AD006584FE /* PBXContainerItemProxy */;
 		};
-		12ACFF0029F1C706006584FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 12ACFEF329F1C706006584FE /* Japan */;
-			targetProxy = 12ACFEFF29F1C706006584FE /* PBXContainerItemProxy */;
-		};
-		12ACFF0229F1C706006584FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 12ACFE5729F1C3B7006584FE /* CountryApp */;
-			targetProxy = 12ACFF0129F1C706006584FE /* PBXContainerItemProxy */;
-		};
 		12ACFF0829F1C706006584FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 12ACFEF329F1C706006584FE /* Japan */;
@@ -1269,44 +772,67 @@
 			target = 12ACFE8929F1C412006584FE /* Router */;
 			targetProxy = 12ACFF1829F1C730006584FE /* PBXContainerItemProxy */;
 		};
-		12ACFF2C29F1CCD9006584FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 12ACFF2029F1CB69006584FE /* Helpers */;
-			targetProxy = 12ACFF2B29F1CCD9006584FE /* PBXContainerItemProxy */;
-		};
-		12ACFF2F29F1CCE1006584FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 12ACFF2029F1CB69006584FE /* Helpers */;
-			targetProxy = 12ACFF2E29F1CCE1006584FE /* PBXContainerItemProxy */;
-		};
-		12ACFF4E29F1FA91006584FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 12ACFF4129F1FA90006584FE /* RouterDestination */;
-			targetProxy = 12ACFF4D29F1FA91006584FE /* PBXContainerItemProxy */;
-		};
-		12ACFF5029F1FA91006584FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 12ACFE5729F1C3B7006584FE /* CountryApp */;
-			targetProxy = 12ACFF4F29F1FA91006584FE /* PBXContainerItemProxy */;
-		};
-		12ACFF5629F1FA91006584FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 12ACFF4129F1FA90006584FE /* RouterDestination */;
-			targetProxy = 12ACFF5529F1FA91006584FE /* PBXContainerItemProxy */;
-		};
-		12ACFF6329F1FAC1006584FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 12ACFF2029F1CB69006584FE /* Helpers */;
-			targetProxy = 12ACFF6229F1FAC1006584FE /* PBXContainerItemProxy */;
-		};
-		12ACFF6729F1FAC1006584FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 12ACFE8929F1C412006584FE /* Router */;
-			targetProxy = 12ACFF6629F1FAC1006584FE /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1285EA842A0B689E00C2186C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rancaka.Helpers;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1285EA852A0B689E00C2186C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rancaka.Helpers;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		12ACFE7A29F1C3B9006584FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1517,40 +1043,6 @@
 			};
 			name = Release;
 		};
-		12ACFE8329F1C3B9006584FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rancaka.CountryAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CountryApp;
-			};
-			name = Debug;
-		};
-		12ACFE8429F1C3B9006584FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rancaka.CountryAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CountryApp;
-			};
-			name = Release;
-		};
 		12ACFEA229F1C412006584FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1606,42 +1098,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		12ACFEA629F1C412006584FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5RRWBYN3UA;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rancaka.RouterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CountryApp";
-			};
-			name = Debug;
-		};
-		12ACFEA729F1C412006584FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5RRWBYN3UA;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rancaka.RouterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CountryApp";
 			};
 			name = Release;
 		};
@@ -1703,42 +1159,6 @@
 			};
 			name = Release;
 		};
-		12ACFEE229F1C665006584FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5RRWBYN3UA;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rancaka.IndonesiaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CountryApp";
-			};
-			name = Debug;
-		};
-		12ACFEE329F1C665006584FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5RRWBYN3UA;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rancaka.IndonesiaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CountryApp";
-			};
-			name = Release;
-		};
 		12ACFF0C29F1C706006584FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1797,165 +1217,18 @@
 			};
 			name = Release;
 		};
-		12ACFF0F29F1C706006584FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5RRWBYN3UA;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rancaka.JapanTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CountryApp";
-			};
-			name = Debug;
-		};
-		12ACFF1029F1C706006584FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5RRWBYN3UA;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rancaka.JapanTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CountryApp";
-			};
-			name = Release;
-		};
-		12ACFF2629F1CB69006584FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5RRWBYN3UA;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		12ACFF2729F1CB69006584FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5RRWBYN3UA;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		12ACFF5A29F1FA92006584FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rancaka.RouterDestination;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		12ACFF5B29F1FA92006584FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rancaka.RouterDestination;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		12ACFF5D29F1FA92006584FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5RRWBYN3UA;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rancaka.RouterDestinationTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CountryApp";
-			};
-			name = Debug;
-		};
-		12ACFF5E29F1FA92006584FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5RRWBYN3UA;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rancaka.RouterDestinationTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CountryApp";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1285EA832A0B689E00C2186C /* Build configuration list for PBXNativeTarget "Helpers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1285EA842A0B689E00C2186C /* Debug */,
+				1285EA852A0B689E00C2186C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		12ACFE5329F1C3B7006584FE /* Build configuration list for PBXProject "CountryApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1983,29 +1256,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		12ACFE8229F1C3B9006584FE /* Build configuration list for PBXNativeTarget "CountryAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				12ACFE8329F1C3B9006584FE /* Debug */,
-				12ACFE8429F1C3B9006584FE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		12ACFEA129F1C412006584FE /* Build configuration list for PBXNativeTarget "Router" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				12ACFEA229F1C412006584FE /* Debug */,
 				12ACFEA329F1C412006584FE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		12ACFEA529F1C412006584FE /* Build configuration list for PBXNativeTarget "RouterTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				12ACFEA629F1C412006584FE /* Debug */,
-				12ACFEA729F1C412006584FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2019,56 +1274,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		12ACFEE129F1C665006584FE /* Build configuration list for PBXNativeTarget "IndonesiaTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				12ACFEE229F1C665006584FE /* Debug */,
-				12ACFEE329F1C665006584FE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		12ACFF0B29F1C706006584FE /* Build configuration list for PBXNativeTarget "Japan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				12ACFF0C29F1C706006584FE /* Debug */,
 				12ACFF0D29F1C706006584FE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		12ACFF0E29F1C706006584FE /* Build configuration list for PBXNativeTarget "JapanTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				12ACFF0F29F1C706006584FE /* Debug */,
-				12ACFF1029F1C706006584FE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		12ACFF2529F1CB69006584FE /* Build configuration list for PBXNativeTarget "Helpers" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				12ACFF2629F1CB69006584FE /* Debug */,
-				12ACFF2729F1CB69006584FE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		12ACFF5929F1FA92006584FE /* Build configuration list for PBXNativeTarget "RouterDestination" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				12ACFF5A29F1FA92006584FE /* Debug */,
-				12ACFF5B29F1FA92006584FE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		12ACFF5C29F1FA92006584FE /* Build configuration list for PBXNativeTarget "RouterDestinationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				12ACFF5D29F1FA92006584FE /* Debug */,
-				12ACFF5E29F1FA92006584FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -6,7 +6,6 @@
 //
 
 import Router
-import RouterDestination
 import UIKit
 import Indonesia
 import Japan
@@ -36,8 +35,8 @@ func worldRouter(_ destination: WorldDestination, navigationController: UINaviga
     case .home:
         navigationController.pushViewController(HomeViewController(), animated: true)
     case .japan(let japanDestination):
-        japanRouter(japanDestination, navigationController: navigationController)
+        japanNavigator(japanDestination, navigationController: navigationController)
     case .indonesia(let indonesiaDestination):
-        indonesiaRouter(indonesiaDestination, navigationController: navigationController)
+        indonesiaNavigator(indonesiaDestination, navigationController: navigationController)
     }
 }
