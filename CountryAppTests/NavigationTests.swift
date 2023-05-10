@@ -32,8 +32,8 @@ class JapanRouterTests: XCTestCase {
         let navigationController = MockNavigationController()
 
         let router = Router(
-            router: worldRouter,
-            navigationController: navigationController
+            navigationController: navigationController,
+            router: worldRouter
         )
 
         router.goTo(.indonesia(.jakarta))

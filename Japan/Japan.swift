@@ -60,7 +60,7 @@ class Tokyo: UIViewController {
     }
 
     @objc func goToJakarta() {
-        UIApplication.router.goTo(.indonesia(.jakarta))
+
     }
 
     required init?(coder: NSCoder) {
@@ -121,11 +121,11 @@ public func japanRouter(_ destination: JapanDestination, navigationController: U
     case .tokyo(let param):
         let tokyo = Tokyo(param: param)
         navigationController.pushViewController(tokyo, animated: true)
-    case .presentTokyo(let param):
-        let tokyo = Tokyo(param: param)
-        navigationController.present(tokyo, animated: true)
     case .osaka:
         let osaka = Osaka()
         navigationController.pushViewController(osaka, animated: true)
+    case .presentTokyo(let param):
+        let tokyo = Tokyo(param: param)
+        navigationController.present(tokyo, animated: true)
     }
 }
