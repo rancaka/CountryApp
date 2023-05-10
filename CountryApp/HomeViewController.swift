@@ -47,11 +47,11 @@ class HomeViewController: UIViewController {
     }
 
     @objc func goToTokyo() {
-        UIApplication.router.goTo(.japan(.tokyo(5)))
+
     }
 
     @objc func goToJakarta() {
-        UIApplication.router.goTo(.indonesia(.jakarta))
+        
     }
 }
 

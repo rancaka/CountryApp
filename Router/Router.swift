@@ -1,13 +1,6 @@
-//
-//  Router.swift
-//  Router
-//
-//  Created by adityo.rancaka on 2023/04/21.
-//
-
 import UIKit
 
-public final class Router<Destination> {
+public final class AppCoordinator<Destination> {
 
     private let navigationController: UINavigationController
     private let router: (Destination, UINavigationController) -> Void
@@ -23,8 +16,8 @@ public final class Router<Destination> {
 
     public func scope<LocalDestination>(
         _ toGlobalDestination: @escaping (LocalDestination) -> Destination
-    ) -> Router<LocalDestination> {
-        Router<LocalDestination>(navigationController: navigationController) { localDestination, navigationController in
+    ) -> AppCoordinator<LocalDestination> {
+        AppCoordinator<LocalDestination>(navigationController: navigationController) { localDestination, navigationController in
             self.router(toGlobalDestination(localDestination), navigationController)
         }
     }
@@ -45,7 +38,7 @@ public struct Once<Value> {
 }
 
 extension UIApplication {
-    @Once public static var router: Router<WorldDestination>!
+    @Once public static var coordinator: AppCoordinator<WorldDestination>!
 }
 
 public enum WorldDestination {

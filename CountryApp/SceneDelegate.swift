@@ -18,11 +18,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
 
         let navigationController = UINavigationController()
-        UIApplication.router = Router(
+        UIApplication.coordinator = AppCoordinator(
             navigationController: navigationController,
             router: worldRouter
         )
-        UIApplication.router.goTo(.home)
+        UIApplication.coordinator.goTo(.home)
 
         window = UIWindow(windowScene: windowScene)
         window?.rootViewController = navigationController
