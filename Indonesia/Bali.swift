@@ -41,7 +41,7 @@ class Bali: UIViewController {
     }
 
     @objc func dismissB() {
-
+        UIApplication.coordinator.dismiss(animated: true)
     }
 }
 

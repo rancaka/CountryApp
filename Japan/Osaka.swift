@@ -5,6 +5,7 @@
 //  Created by adityo.rancaka on 2023/05/10.
 //
 
+import Router
 import UIKit
 
 class Osaka: UIViewController {
@@ -18,10 +19,10 @@ class Osaka: UIViewController {
         iconLabel.text = "🎏"
         iconLabel.font = .systemFont(ofSize: 75)
 
-        let presentTokyoButton = UIButton()
-        presentTokyoButton.backgroundColor = .gray
-        presentTokyoButton.setTitle("Present Tokyo 🗼", for: .normal)
-        presentTokyoButton.addTarget(self, action: #selector(presentTokyo), for: .touchUpInside)
+        let goToTokyoButton = UIButton()
+        goToTokyoButton.backgroundColor = .gray
+        goToTokyoButton.setTitle("Go to Tokyo 🗼", for: .normal)
+        goToTokyoButton.addTarget(self, action: #selector(goToTokyo), for: .touchUpInside)
 
         let backButton = UIButton()
         backButton.backgroundColor = .black
@@ -30,7 +31,7 @@ class Osaka: UIViewController {
 
         let vStack = UIStackView(arrangedSubviews: [
             iconLabel,
-            presentTokyoButton,
+            goToTokyoButton,
             backButton
         ])
         vStack.axis = .vertical
@@ -39,19 +40,19 @@ class Osaka: UIViewController {
         view.addSubview(vStack)
 
         NSLayoutConstraint.activate([
-            presentTokyoButton.widthAnchor.constraint(equalToConstant: 150),
+            goToTokyoButton.widthAnchor.constraint(equalToConstant: 150),
             backButton.widthAnchor.constraint(equalToConstant: 150),
             vStack.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             vStack.centerYAnchor.constraint(equalTo: view.centerYAnchor)
         ])
     }
 
-    @objc func presentTokyo() {
-
+    @objc func goToTokyo() {
+        UIApplication.coordinator.goTo(.japan(.tokyo(5)))
     }
 
     @objc func goBack() {
-
+        UIApplication.coordinator.goBack(animated: true)
     }
 }
 

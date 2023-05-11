@@ -5,9 +5,13 @@
 //  Created by adityo.rancaka on 2023/05/10.
 //
 
+import Router
 import UIKit
 
 class Tokyo: UIViewController {
+
+    let japanCoordinator = UIApplication.coordinator.scope(WorldDestination.japan)
+
     let param: Int
 
     init(param: Int) {
@@ -54,11 +58,11 @@ class Tokyo: UIViewController {
     }
 
     @objc func goToOsaka() {
-        
+        japanCoordinator.goTo(.osaka)
     }
 
     @objc func goToJakarta() {
-
+        UIApplication.coordinator.goTo(.indonesia(.jakarta))
     }
 
     required init?(coder: NSCoder) {

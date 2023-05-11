@@ -44,10 +44,9 @@
 		12ACFF1229F1C718006584FE /* JapanNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFF1129F1C718006584FE /* JapanNavigator.swift */; };
 		12ACFF1629F1C730006584FE /* Router.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFE8A29F1C412006584FE /* Router.framework */; };
 		12ACFF1729F1C730006584FE /* Router.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 12ACFE8A29F1C412006584FE /* Router.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		12ACFF3329F1CF95006584FE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFF3229F1CF95006584FE /* HomeViewController.swift */; };
+		12ACFF3329F1CF95006584FE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFF3229F1CF95006584FE /* Home.swift */; };
 		12ACFF3529F1D3E8006584FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFF3429F1D3E8006584FE /* SceneDelegate.swift */; };
 		12ACFF3729F1D457006584FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFF3629F1D457006584FE /* AppDelegate.swift */; };
-		12ACFF3C29F1EC67006584FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACFF3B29F1EC67006584FE /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -205,13 +204,11 @@
 		12ACFEF429F1C706006584FE /* Japan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Japan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12ACFEF629F1C706006584FE /* Japan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Japan.h; sourceTree = "<group>"; };
 		12ACFEF729F1C706006584FE /* Japan.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Japan.docc; sourceTree = "<group>"; };
-		12ACFF0429F1C706006584FE /* JapanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapanTests.swift; sourceTree = "<group>"; };
 		12ACFF1129F1C718006584FE /* JapanNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapanNavigator.swift; sourceTree = "<group>"; };
-		12ACFF3229F1CF95006584FE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		12ACFF3229F1CF95006584FE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		12ACFF3429F1D3E8006584FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		12ACFF3629F1D457006584FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12ACFF3829F1D60D006584FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		12ACFF3B29F1EC67006584FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,7 +283,6 @@
 				12ACFE8B29F1C412006584FE /* Router */,
 				12ACFEC829F1C664006584FE /* Indonesia */,
 				12ACFEF529F1C706006584FE /* Japan */,
-				12ACFF0329F1C706006584FE /* JapanTests */,
 				1285EA6D2A0B689D00C2186C /* Helpers */,
 				12ACFE5929F1C3B7006584FE /* Products */,
 				12ACFEE629F1C6AD006584FE /* Frameworks */,
@@ -313,10 +309,9 @@
 				12ACFE5D29F1C3B7006584FE /* ContentView.swift */,
 				12ACFE5F29F1C3B9006584FE /* Assets.xcassets */,
 				12ACFE6129F1C3B9006584FE /* Preview Content */,
-				12ACFF3229F1CF95006584FE /* HomeViewController.swift */,
+				12ACFF3229F1CF95006584FE /* Home.swift */,
 				12ACFF3429F1D3E8006584FE /* SceneDelegate.swift */,
 				12ACFF3629F1D457006584FE /* AppDelegate.swift */,
-				12ACFF3B29F1EC67006584FE /* ViewController.swift */,
 			);
 			path = CountryApp;
 			sourceTree = "<group>";
@@ -377,14 +372,6 @@
 				1285EA952A0B6BC900C2186C /* Osaka.swift */,
 			);
 			path = Japan;
-			sourceTree = "<group>";
-		};
-		12ACFF0329F1C706006584FE /* JapanTests */ = {
-			isa = PBXGroup;
-			children = (
-				12ACFF0429F1C706006584FE /* JapanTests.swift */,
-			);
-			path = JapanTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -661,10 +648,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12ACFF3C29F1EC67006584FE /* ViewController.swift in Sources */,
 				12ACFF3729F1D457006584FE /* AppDelegate.swift in Sources */,
 				12ACFE5E29F1C3B7006584FE /* ContentView.swift in Sources */,
-				12ACFF3329F1CF95006584FE /* HomeViewController.swift in Sources */,
+				12ACFF3329F1CF95006584FE /* Home.swift in Sources */,
 				12ACFF3529F1D3E8006584FE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

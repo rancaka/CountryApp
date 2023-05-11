@@ -8,7 +8,6 @@
 import XCTest
 @testable import CountryApp
 @testable import Router
-@testable import RouterDestination
 @testable import Indonesia
 @testable import Japan
 
@@ -31,24 +30,21 @@ class JapanRouterTests: XCTestCase {
     func testRouter() {
         let navigationController = MockNavigationController()
 
-        let router = Router(
+        let coordinator = AppCoordinator(
             navigationController: navigationController,
-            router: worldRouter
+            navigator: worldNavigator
         )
 
-        router.goTo(.indonesia(.jakarta))
+        coordinator.goTo(.indonesia(.jakarta))
         XCTAssertTrue(navigationController.pushedVC is Jakarta)
 
-        router.goTo(.indonesia(.bali))
+        coordinator.goTo(.indonesia(.bali))
         XCTAssertTrue(navigationController.presentedVC is Bali)
 
-        router.goTo(.japan(.tokyo(5)))
+        coordinator.goTo(.japan(.tokyo(5)))
         XCTAssertTrue(navigationController.pushedVC is Tokyo)
 
-        router.goTo(.japan(.presentTokyo(5)))
-        XCTAssertTrue(navigationController.presentedVC is Tokyo)
-
-        router.goTo(.japan(.osaka))
+        coordinator.goTo(.japan(.osaka))
         XCTAssertTrue(navigationController.pushedVC is Osaka)
     }
 }

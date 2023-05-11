@@ -1,14 +1,14 @@
 //
-//  HomeViewController.swift
+//  Home.swift
 //  CountryApp
 //
 //  Created by adityo.rancaka on 2023/04/21.
 //
 
+import Router
 import UIKit
-import SwiftUI
 
-class HomeViewController: UIViewController {
+class Home: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -47,16 +47,19 @@ class HomeViewController: UIViewController {
     }
 
     @objc func goToTokyo() {
-
+        UIApplication.coordinator.goTo(.japan(.tokyo(5)))
     }
 
     @objc func goToJakarta() {
-        
+        UIApplication.coordinator.goTo(.indonesia(.jakarta))
     }
 }
 
-struct HomeViewController_Previews: PreviewProvider {
+import Helpers
+import SwiftUI
+
+struct Home_Previews: PreviewProvider {
     static var previews: some View {
-        ViewController(viewController: HomeViewController())
+        ViewController(viewController: Home())
     }
 }

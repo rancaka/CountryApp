@@ -5,9 +5,14 @@
 //  Created by adityo.rancaka on 2023/05/10.
 //
 
+import Router
 import UIKit
 
 class Jakarta: UIViewController {
+
+    let indonesiaRouter = UIApplication
+        .coordinator
+        .scope(WorldDestination.indonesia)
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +27,7 @@ class Jakarta: UIViewController {
         let goToBaliButton = UIButton()
         goToBaliButton.backgroundColor = .brown
         goToBaliButton.setTitle("Present Bali 🏝️", for: .normal)
-        goToBaliButton.addTarget(self, action: #selector(goToBali), for: .touchUpInside)
+        goToBaliButton.addTarget(self, action: #selector(presentBali), for: .touchUpInside)
 
         let goToOsakaButton = UIButton()
         goToOsakaButton.backgroundColor = .purple
@@ -47,12 +52,12 @@ class Jakarta: UIViewController {
         ])
     }
 
-    @objc func goToBali() {
-
+    @objc func presentBali() {
+        indonesiaRouter.goTo(.bali)
     }
 
     @objc func goToOsaka() {
-
+        UIApplication.coordinator.goTo(.japan(.osaka))
     }
 }
 

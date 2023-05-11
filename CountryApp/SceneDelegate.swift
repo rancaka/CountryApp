@@ -18,10 +18,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
 
         let navigationController = UINavigationController()
+
         UIApplication.coordinator = AppCoordinator(
             navigationController: navigationController,
-            router: worldRouter
+            navigator: worldNavigator
         )
+
         UIApplication.coordinator.goTo(.home)
 
         window = UIWindow(windowScene: windowScene)
@@ -30,13 +32,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 }
 
-func worldRouter(_ destination: WorldDestination, navigationController: UINavigationController) {
+func worldNavigator(_ destination: WorldDestination, navigationController: UINavigationController) {
     switch destination {
     case .home:
-        navigationController.pushViewController(HomeViewController(), animated: true)
-    case .japan(let japanDestination):
-        japanNavigator(japanDestination, navigationController: navigationController)
-    case .indonesia(let indonesiaDestination):
-        indonesiaNavigator(indonesiaDestination, navigationController: navigationController)
+        let home = Home()
+        navigationController.pushViewController(home, animated: true)
+    case .indonesia(let destination):
+        indonesiaNavigator(destination, navigationController: navigationController)
+    case .japan(let destination):
+        japanNavigator(destination, navigationController: navigationController)
     }
 }

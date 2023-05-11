@@ -9,8 +9,5 @@ public func japanNavigator(_ destination: JapanDestination, navigationController
     case .osaka:
         let osaka = Osaka()
         navigationController.pushViewController(osaka, animated: true)
-    case .presentTokyo(let param):
-        let tokyo = Tokyo(param: param)
-        navigationController.present(tokyo, animated: true)
     }
 }
